@@ -106,6 +106,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _main
+  - scope:
+      path: ""
+      type: main
+    values:
+      sidebar:
+        nav: "main"
 
 category_archive:
   type: liquid
